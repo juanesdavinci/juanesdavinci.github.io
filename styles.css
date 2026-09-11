@@ -142,12 +142,13 @@ h3 { margin: 0; font-size: 17px; letter-spacing: -.04em; }
 .media-coldcase { background: #26384e; }
 .media-odyssey { background: linear-gradient(135deg, #263b57, #4b7a91); }
 .media-backdrop { background: linear-gradient(135deg, #ef6f4e, #e8be58 55%, #4f7c6a); }
-.media-morgan { background: linear-gradient(135deg, #66727d, #a62d2b); }
 .media-maze { background: #111722; }
 .tech-pills { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 12px; }
 .tech-pills span { padding: 4px 7px; border: 1px solid #4b4b4b; border-radius: 999px; color: var(--gold); font: 8px var(--mono); text-transform: uppercase; }
 .role-note { display: block; margin-top: 13px; color: #c2c0b9; font: 11px/1.5 var(--display); }
 .role-note b { color: var(--text); font-weight: 700; }
+.project-source { display: inline-block; margin-top: 12px; color: var(--gold); font: 9px var(--mono); text-transform: uppercase; text-decoration: underline; text-underline-offset: 3px; }
+.project-source:hover { color: var(--text); }
 .project-links { display: flex; flex-direction: column; gap: 5px; }
 .project-links a { color: var(--gold); text-decoration: underline; text-underline-offset: 3px; }
 .project-links a:hover { color: var(--text); }

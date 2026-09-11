@@ -10,7 +10,6 @@ const projectYears = {
   'Agua, Viento y Verdor': 2019,
   'Virtual Education': 2018,
   'Bridal Lab': 2018,
-  'Morgan Technica Simulator': 2018,
   'Mobile Race': 2017,
   'VR Maze': 2017,
   'El Edificio': 2015

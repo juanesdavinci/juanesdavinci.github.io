@@ -317,6 +317,30 @@ footer a { color: var(--subtle); }
   .project-row .project-year { grid-column: 3; grid-row: 1; }
 }
 
+/* Project timeline and consistent card treatment */
+.project-list { position: relative; padding-left: 22px; border-top: 0; }
+.project-list::before { position: absolute; top: 0; bottom: 0; left: 8px; width: 1px; background: var(--dark-line); content: ""; }
+.project-row { position: relative; grid-template-columns: 24px 210px minmax(0, 1fr) 68px; gap: 22px; min-height: 170px; align-items: stretch; margin-bottom: 12px; padding: 20px 18px; border: 1px solid var(--dark-line); background: var(--panel); transition: background .2s ease, border-color .2s ease; }
+.project-row::before { position: absolute; top: 29px; left: -19px; width: 9px; height: 9px; border: 2px solid var(--gold); border-radius: 50%; background: var(--canvas); content: ""; }
+.project-row:hover, .project-row.project-highlight { padding: 20px 18px; background: var(--panel-soft); border-color: #55534b; }
+.project-row.project-highlight .project-title h3 { color: var(--text); }
+.project-row .project-index { padding-top: 4px; }
+.project-media { height: 100%; min-height: 130px; align-self: stretch; padding: 12px; }
+.project-media img { height: 100%; }
+.project-title { min-width: 0; }
+
+@media (max-width: 760px) {
+  .project-list { padding-left: 15px; }
+  .project-list::before { left: 5px; }
+  .project-row { grid-template-columns: 25px minmax(0, 1fr) 42px; gap: 8px; min-height: 0; margin-bottom: 10px; padding: 14px 12px; }
+  .project-row::before { top: 22px; left: -15px; width: 7px; height: 7px; }
+  .project-row:hover, .project-row.project-highlight { padding: 14px 12px; background: var(--panel); border-color: var(--dark-line); }
+  .project-row .project-index { grid-column: 1; grid-row: 1; }
+  .project-row .project-media { grid-column: 2; grid-row: 1; min-height: 112px; height: 112px; }
+  .project-row .project-title { grid-column: 2; grid-row: 2; }
+  .project-row .project-year { grid-column: 3; grid-row: 1; }
+}
+
   .project-year { color: var(--gold); }
   .project-year b { color: var(--gold); }
 

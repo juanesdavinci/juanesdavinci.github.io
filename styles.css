@@ -133,6 +133,7 @@ h3 { margin: 0; font-size: 17px; letter-spacing: -.04em; }
 .project-media b { position: relative; z-index: 1; font-size: 18px; line-height: .9; letter-spacing: -.08em; }
 .project-media img { width: 100%; height: 100%; position: absolute; inset: 0; object-fit: cover; opacity: .86; }
 .media-sea { background: linear-gradient(135deg, #123b4a, #d1883d 55%, #162632); }
+.media-cubeats { background: linear-gradient(135deg, #102d3d, #4d9a9a 58%, #d2b56b); }
 .media-adventure { background: linear-gradient(135deg, #171b2f, #a14f3f 58%, #d4b45e); }
 .media-audio { background: linear-gradient(135deg, #1f665e, #d4b458 60%, #613d5d); }
 .media-eyeball { background: #28324b; }

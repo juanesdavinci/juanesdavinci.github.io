@@ -2,6 +2,7 @@ const header = document.querySelector('.site-header');
 const projectList = document.querySelector('.project-list');
 
 const projectYears = {
+  'Cubeats': 2026,
   'Cold Case VR: Fatal Follower': 2024,
   'Odyssey XR': 2024,
   'Backdrop Alive': 2024,
